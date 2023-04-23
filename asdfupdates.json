@@ -6,7 +6,7 @@
         "UpdateSourceData": "https://github.com/compujuckel/AssettoServer/releases/download/v0.0.51/assetto-server-linux-x64.tar.gz",
         "UpdateSourceArgs": "",
         "UpdateSourceVersion": "",
-        "UpdateSourceTarget": "",
+        "UpdateSourceTarget": "{{$FullBaseDir}}",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
         "ForceDownloadPlatform": null,
