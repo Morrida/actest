@@ -3,7 +3,7 @@
         "UpdateStageName": "Download AssettoServer",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "GithubRelease",
-        "UpdateSourceData": "assetto-server-linux-x64.tar.gz ",
+        "UpdateSourceData": "assetto-server-linux-x64.tar.gz",
         "UpdateSourceArgs": "compujuckel/AssettoServer",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
