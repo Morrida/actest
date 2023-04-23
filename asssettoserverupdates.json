@@ -1,18 +1,11 @@
 [
     {
-        "UpdateStageName": "Download File",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://github.com/compujuckel/AssettoServer/releases/download/v0.0.51/assetto-server-linux-x64.tar.gz",
-        "UpdateSourceArgs": "",
-        "UpdateSourceVersion": "",
-        "UpdateSourceTarget": "",
+        "UpdateStageName": "FDownload File",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "GithubRelease",
+        "UpdateSourceArgs": "compujuckel/AssettoServer",
+        "UpdateSourceData": "assetto-server-linux-x64.tar.gz",
         "UnzipUpdateSource": true,
-        "OverwriteExistingFiles": true,
-        "ForceDownloadPlatform": null,
-        "UpdateSourceConditionSetting": null,
-        "UpdateSourceConditionValue": null,
-        "DeleteAfterExtract": false,
-        "OneShot": false
+        "OverwriteExistingFiles": true
     }
 ]
