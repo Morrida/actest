@@ -1,0 +1,16 @@
+[
+    {
+        "Protocol": "Both",
+        "Port": "9600",
+        "Name": "Main Game Port",
+        "Description": "Main Game port",
+        "Ref": "MainGamePort"
+    },
+    {
+        "Protocol": "Both",
+        "Port": "9601",
+        "Name": "HTTP Port",
+        "Description": "HTTP Port for lobby info",
+        "Ref": "HTTPPort"
+    }
+]
