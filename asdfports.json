@@ -1,0 +1,23 @@
+[
+    {
+        "Protocol": "Both",
+        "Port": "7777",
+        "Name": "Main Game Port",
+        "Description": "Main Game port",
+        "Ref": "MainGamePort"
+    },
+    {
+        "Protocol": "Both",
+        "Port": "7778",
+        "Name": "Steam Query Port",
+        "Description": "Steam Query Port",
+        "Ref": "SteamQueryPort"
+    },
+    {
+        "Protocol": "Both",
+        "Port": "7779",
+        "Name": "Remote Admin Port",
+        "Description": "RCON Port",
+        "Ref": "RemoteAdminPort"
+    }
+]

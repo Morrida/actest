@@ -1,0 +1,18 @@
+[
+    {
+        "UpdateStageName": "Download AssettoServer",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "GithubRelease",
+        "UpdateSourceData": "assetto-server-linux-x64.tar.gz ",
+        "UpdateSourceArgs": "https://github.com/compujuckel/AssettoServer.git",
+        "UpdateSourceVersion": "",
+        "UpdateSourceTarget": "",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "ForceDownloadPlatform": null,
+        "UpdateSourceConditionSetting": null,
+        "UpdateSourceConditionValue": null,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    }
+]
