@@ -1,10 +1,20 @@
-
+[
     {
-        "UpdateStageName": "Settings File Download",
-        "UpdateSourcePlatform": "All",
+        "UpdateStageName": "game File Download",
+        "UpdateSourcePlatform": "Linux",
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://github.com/compujuckel/AssettoServer/releases/download/v0.0.51/assetto-server-linux-x64.tar.gz",
         "UpdateSourceTarget": "{{$FullBaseDir}}",
         "OverwriteExistingFiles": false,
-  }
+    },
+    {
+        "UpdateStageName":"Dotnet download Linux",
+        "UpdateSourcePlatform":"Linux",
+        "UpdateSource":"FetchURL",
+        "UpdateSourceData":"https://dotnetcli.azureedge.net/dotnet/Runtime/6.0.0/dotnet-runtime-6.0.0-linux-x64.tar.gz",
+        "UpdateSourceTarget":"{{$FullBaseDir}}/dotnet/6.0.0/",
+        "UnzipUpdateSource":true,
+        "OverwriteExistingFiles":true,
+        "DeleteAfterExtract":true
+    } 
 ]
