@@ -5,14 +5,8 @@
         "UpdateSource": "GithubRelease",
         "UpdateSourceData": "assetto-server-linux-x64.tar.gz ",
         "UpdateSourceArgs": "compujuckel/AssettoServer",
-        "UpdateSourceVersion": "",
-        "UpdateSourceTarget": "",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
-        "ForceDownloadPlatform": null,
-        "UpdateSourceConditionSetting": null,
-        "UpdateSourceConditionValue": null,
-        "DeleteAfterExtract": true,
-        "OneShot": false
+        "ForceDownloadPlatform": null
     }
 ]
