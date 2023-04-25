@@ -16,7 +16,7 @@
         "DeleteAfterExtract":true
     },
     {
-        "UpdateStageName": "game File Download",
+        "UpdateStageName": "AssettoServer Download",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://github.com/compujuckel/AssettoServer/releases/download/v0.0.51/assetto-server-linux-x64.tar.gz",
@@ -26,10 +26,9 @@
         "DeleteAfterExtract": true
     },
     {
-        "UpdateStageName":"Initialise Wine",
-        "UpdateSourcePlatform":"Linux",
-        "UpdateSource":"Executable",
-        "UpdateSourceData":"/bin/bash",
-        "UpdateSourceArgs":"-c 'WINEPREFIX=\"{{$FullRootDir}}.wine\" WINEARCH=win32/usr/bin/wineboot --init --update'"
+        "UpdateStageName":"Create cfg Directory",
+        "UpdateSourcePlatform":"All",
+        "UpdateSource":"CreateDirectory",
+        "UpdateSourceArgs":"{{$FullBaseDir}}cfg"
     }
 ]
