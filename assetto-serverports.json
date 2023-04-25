@@ -1,6 +1,6 @@
 [
     {
-        "Protocol": "TCP",
+        "Protocol": "Both",
         "Port": "9600",
         "Name": "Main Game Port",
         "Description": "Port for game traffic",
