@@ -5,7 +5,9 @@
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://github.com/compujuckel/AssettoServer/releases/download/v0.0.51/assetto-server-win-x64.zip",
         "UpdateSourceTarget": "{{$FullBaseDir}}",
-        "OverwriteExistingFiles": false,
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true,
+        "DeleteAfterExtract": true
     },
     {
         "UpdateStageName":"Dotnet download Linux",
