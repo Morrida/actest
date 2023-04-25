@@ -85,6 +85,5 @@ Meta.MinAMPVersion=2.4.2.0
 Meta.NoCommercialUsage=False
 Meta.OS=3
 Meta.Prerequsites=[]
-Meta.SpecificDockerImage=cubecoders/ampbase:wine
 Meta.URL=https://github.com/compujuckel/AssettoServer
 availablePortOptions=Custom Port,Steam Query Port,RCON Port
