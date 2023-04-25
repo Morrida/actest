@@ -1,13 +1,13 @@
 [
     {
-        "UpdateStageName": "Download Release",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "GithubRelease",
-        "UpdateSourceData": "assetto-server-win-x64.zip",
-        "UpdateSourceArgs": "compujuckel/AssettoServer",
+        "UpdateStageName": "game File Download",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://github.com/compujuckel/AssettoServer/releases/download/v0.0.51/assetto-server-win-x64.zip",
+        "UpdateSourceTarget": "{{$FullBaseDir}}",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
-        "DeleteAfterExtract": true,
+        "DeleteAfterExtract": true
     },
     {
         "UpdateStageName":"Initialise Wine",
