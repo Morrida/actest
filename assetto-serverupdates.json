@@ -1,9 +1,20 @@
 [
     {
+        "UpdateStageName":"ASP.NET Core Runtime Download",
+        "UpdateSourcePlatform":"Linux",
+        "UpdateSource":"FetchURL",
+        "UpdateSourceData":"https://dotnetcli.azureedge.net/dotnet/aspnetcore/Runtime/7.0.3/aspnetcore-runtime-7.0.3-linux-x64.tar.gz",
+        "UpdateSourceTarget":"{{$FullBaseDir}}",
+        "UpdateSourceTarget":"{{$FullBaseDir}}dotnet",
+        "UnzipUpdateSource":true,
+        "OverwriteExistingFiles":true,
+        "DeleteAfterExtract":true
+    },
+    {
         "UpdateStageName": "game File Download",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://github.com/compujuckel/AssettoServer/releases/download/v0.0.51/assetto-server-win-x64.zip",
+        "UpdateSourceData": "https://github.com/compujuckel/AssettoServer/releases/download/v0.0.51/assetto-server-linux-x64.tar.gz",
         "UpdateSourceTarget": "{{$FullBaseDir}}",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
