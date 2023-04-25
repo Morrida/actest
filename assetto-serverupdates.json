@@ -5,15 +5,9 @@
         "UpdateSource": "GithubRelease",
         "UpdateSourceData": "assetto-server-win-x64.zip",
         "UpdateSourceArgs": "compujuckel/AssettoServer",
-        "UpdateSourceVersion": "",
-        "UpdateSourceTarget": "",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "ForceDownloadPlatform": null,
-        "UpdateSourceConditionSetting": null,
-        "UpdateSourceConditionValue": null,
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
-        "OneShot": false
     },
     {
         "UpdateStageName":"Initialise Wine",
